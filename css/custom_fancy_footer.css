@@ -89,3 +89,6 @@ text-align: center;
 .carousel-control.right {
 background-image: none;
 }
+.carousel-control.left {
+background-image: none;
+}
