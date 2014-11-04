@@ -92,3 +92,7 @@ background-image: none;
 .carousel-control.left {
 background-image: none;
 }
+
+.carousel-caption {
+    color: #000;
+}
