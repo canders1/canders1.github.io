@@ -24,7 +24,7 @@
 
 @media (min-width: 768px) {
 .navbar-inverse {
-background-image:;
+background-image: none;
 background-color: #ffffff;
 }
 }
