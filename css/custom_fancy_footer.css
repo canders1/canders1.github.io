@@ -22,10 +22,11 @@
   border-style: dotted;
  }
 
-@media (min-width: 768px)
+@media (min-width: 768px) {
 .navbar-inverse {
 background-image:url('http://canders1.github.io/img/blank_page.jpg');
 background-color: #ffffff;
+}
 }
 
 navbar-inverse .navbar-brand {
