@@ -13,19 +13,18 @@
 
  .navbar-inverse {
   color:#3A3838;
-  background-image:url('http://canders1.github.io/img/tree_border.png');
   background-size: contain;
   background-repeat:no-repeat;
   background-position:35%;  
   background-color: inherit; 
   border-color: #000;
   border-style: dotted;
+  background-color: #ffffff;
  }
 
 @media (min-width: 768px) {
 .navbar-inverse {
-background-image: none;
-background-color: #ffffff;
+background-image:url('http://canders1.github.io/img/tree_border.png');
 }
 }
 
