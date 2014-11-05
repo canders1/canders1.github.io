@@ -22,6 +22,11 @@
   border-style: dotted;
  }
 
+@media (min-width: 768px)
+.navbar-inverse {
+background: ;
+}
+
 navbar-inverse .navbar-brand {
 color: #81F7BE;
 }
