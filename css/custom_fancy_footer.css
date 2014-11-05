@@ -107,3 +107,21 @@ background-image: none;
     color: #000;
     font-size: 20px;
 }
+
+@media (min-width: 1200px) {
+    .caption-read {
+        font-size: 18px
+    }    
+}
+
+@media (min-width: 982px) {
+    .caption-read {
+        font-size: 16px
+    }    
+}
+
+@media (min-width: 760px) {
+    .caption-read {
+        font-size: 12px
+    }    
+}
