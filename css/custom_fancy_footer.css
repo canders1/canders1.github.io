@@ -24,7 +24,8 @@
 
 @media (min-width: 768px)
 .navbar-inverse {
-background: ;
+background-image:none;
+background-color: #ffffff;
 }
 
 navbar-inverse .navbar-brand {
