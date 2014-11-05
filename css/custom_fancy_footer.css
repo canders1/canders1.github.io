@@ -108,6 +108,10 @@ background-image: none;
     font-size: 20px;
 }
 
+.caption-read {
+    font-size: 10px;
+}   
+
 @media (min-width: 768px) {
     .caption-read {
         font-size: 12px;
@@ -129,8 +133,6 @@ background-image: none;
     }    
 }
 
-.caption-read {
-    font-size: 10px;
-}   
+
 
 
