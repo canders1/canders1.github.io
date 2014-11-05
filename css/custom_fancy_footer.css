@@ -108,21 +108,21 @@ background-image: none;
     font-size: 20px;
 }
 
-@media (min-width: 368px) {
+@media (min-width: 100px) {
     .caption-read {
         font-size: 18px;
         color: yellow;
     }    
 }
 
-@media (min-width: 282px) {
+@media (min-width: 28px) {
     .caption-read {
         font-size: 16px;
         color: red;
     }    
 }
 
-@media (min-width: 168px) {
+@media (min-width: 1px) {
     .caption-read {
         font-size: 12px;
         color: purple;
