@@ -5,8 +5,8 @@
     <description>Description. Appears in document head meta (for Google search results) and in feed.xml site description.</description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 03 Sep 2017 18:31:19 -0400</pubDate>
-    <lastBuildDate>Sun, 03 Sep 2017 18:31:19 -0400</lastBuildDate>
+    <pubDate>Sun, 03 Sep 2017 18:33:30 -0400</pubDate>
+    <lastBuildDate>Sun, 03 Sep 2017 18:33:30 -0400</lastBuildDate>
     <generator>Jekyll v2.1.0</generator>
     
       <item>
