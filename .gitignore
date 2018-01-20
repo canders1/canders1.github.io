@@ -1,2 +1,8 @@
 
 *.zip
+
+.Rhistory
+
+.RData
+
+.Rhistory
