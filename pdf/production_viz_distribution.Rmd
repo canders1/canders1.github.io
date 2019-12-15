@@ -1,5 +1,5 @@
 ---
-title: "production_viz"
+title: "Visualing Free Response Data"
 output:
   html_document: default
   pdf_document: default
@@ -47,7 +47,7 @@ main$type <- factor(main$type)
 ```{r}
 #Reshape and add survey info
 db.raw <- db.raw[c(1,2,8,9)]
-db.cast<- cast(db.raw, participant ~ question,value='answer')
+db.cast<- dcast(db.raw, participant ~ question,value='answer')
 main <- merge(main,db.cast,by="participant")
 main <- main %>% rowwise() %>% mutate(doc_id = paste(participant,item))
 ```
