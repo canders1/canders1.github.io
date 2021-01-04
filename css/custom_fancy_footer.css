@@ -4,32 +4,32 @@
   font-weight: 600;
  }
 
- .page-header {
- padding-bottom: 10%px;
- margin-right: 10%px;
- margin-left: 10%px;
- border-bottom:none;
- }
+.navbar-expand-lg{
+  justify-content: space-between;
+}
 
- .navbar-inverse {
+ .navbar {
   color:#3A3838;
-  background-size: contain;
+  background-size: cover;
   background-repeat:no-repeat;
-  background-position:35%;  
+  background-position:center;  
   background-color: inherit; 
   border-color: #000;
-  border-style: dotted;
+  border-style: none;
   background-color: #ffffff;
  }
 
-@media (min-width: 1200px) {
-.navbar-inverse {
-background-image:url('../img/tree_border.png');
+.interests {
+  margin-top: 2px;
+  margin-bottom: 0px;
 }
+
+.navbar {
+background-image:url('../img/paper.jpg');
 }
 
 navbar-inverse .navbar-brand {
-color: #81F7BE;
+color: #BA782A; /*#81F7BE;*/
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -41,7 +41,7 @@ color: #000;
 }
 
 .navbar-toggle {
-background-color: #81F7BE;
+background-color: #BA782A;
 }
 
 .navbar-right {
@@ -63,6 +63,32 @@ padding: 10px 15px;
 
 .navbar-brand {
  padding: 0px 15px;
+ padding-left: 0pt; 
+ height: 75px;
+}
+
+p > a {
+  color: #BA782A;
+}
+
+b > a >  {
+  color: #BA782A;
+}
+
+h5 > a {
+  color: #BA782A;
+}
+
+.navbar-brand > h2 > a > p {
+  /*background-color: #EEEEEE;
+  padding: 12px;*/
+  font-size: 18pt;
+}
+
+@media (min-width: 600px) {
+  .navbar-brand {
+    padding-right: 200pt;
+  }
 }
 
  footer h5 {
